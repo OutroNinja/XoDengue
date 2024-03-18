@@ -37,8 +37,11 @@ const SiteFooter = () => {
                     <p className="font-semibold">XôDengue</p>
                 </div>
                 <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 XôDengue. Todos os direitos reservados.</p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">
+                <p className="text-xs text-gray-500 dark:text-gray-400 w-80">
                     As informações fornecidas neste site são apenas para fins educacionais e não devem ser consideradas aconselhamento médico.
+                </p>
+                <p className="text-xs text-gray-500">
+                    Criado com ❤️ por Fábio Henrique
                 </p>
             </div>
         </motion.footer>

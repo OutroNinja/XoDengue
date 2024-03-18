@@ -23,7 +23,6 @@ const SiteHeader = () => {
         >
             <motion.div
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
-                className=""
             >
                 <MainNav />
                 <MobileNav />

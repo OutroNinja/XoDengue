@@ -24,7 +24,7 @@ export default function Page() {
             >
                 <m.div
                     variants={FADE_DOWN_ANIMATION_VARIANTS}
-                    className="w-full "
+                    className="w-full"
                 >
                     <section className="w-full">
                         <Card className="py-10">
@@ -72,24 +72,24 @@ export default function Page() {
                                             A dengue é uma doença que apresenta diversos sintomas que podem ser considerados leves ou graves, logo, podem ser confundidos com a gripe. Abaixo estão alguns sintomas da dengue:<br />
                                         </p>
                                         <div className="text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
-                                            - Febre alta;<br />
-                                            - Dor no corpo e nas articulações;<br />
-                                            - Dor atrás dos olhos;<br />
-                                            - Mal-estar;<br />
-                                            - Dor de cabeça;<br />
-                                            - Manchas vermelhas no corpo;<br />
+                                            • Febre alta;<br />
+                                            • Dor no corpo e nas articulações;<br />
+                                            • Dor atrás dos olhos;<br />
+                                            • Mal-estar;<br />
+                                            • Dor de cabeça;<br />
+                                            • Manchas vermelhas no corpo;<br />
                                         </div>
                                         <div className="text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
                                             A dengue hemorrágica é a forma mais grave da doença e pode levar ao óbito caso não seja tratada com urgência. Os principais sintomas são:<br />
-                                            - Dor abdominal intensa;<br />
-                                            - Sangramento nas gengivas ou no nariz;<br />
-                                            - Fadiga;<br />
-                                            - Presença de sangue nas fezes;<br />
-                                            - Hipotensão postural (queda na pressão arterial após levantar);<br />
-                                            - Vômitos persistentes;<br />
-                                            - Hepatomegalia (aumento do fígado);<br />
-                                            - Dificuldade respiratória;<br />
-                                            - Letargia.<br />
+                                            • Dor abdominal intensa;<br />
+                                            • Sangramento nas gengivas ou no nariz;<br />
+                                            • Fadiga;<br />
+                                            • Presença de sangue nas fezes;<br />
+                                            • Hipotensão postural (queda na pressão arterial após levantar);<br />
+                                            • Vômitos persistentes;<br />
+                                            • Hepatomegalia (aumento do fígado);<br />
+                                            • Dificuldade respiratória;<br />
+                                            • Letargia.<br />
                                         </div>
                                     </div>
                                 </div>

@@ -55,10 +55,10 @@ export default function Page() {
                                     <div className="px-4 md:px-6 lg:px-8 space-y-4">
                                         <div className="text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
                                             É comum presenciarmos desde a infância, anúncios em meio aos programas de TV, que se referem as medicações contraindicadas em casos de tal doença. Decorrente disso, a dengue não estaria de fora, tendo como contraindicações:<br />
-                                            - Antibióticos: A dengue é causada por um vírus, e os antibióticos tem como função tratar as infecções causadas por bactérias, por isso seria ineficaz. <br />
-                                            - Ivermectina: Esse medicamento é utilizado para tratar &quot;parasitas&quot; como piolhos e carrapatos. Não é recomendado em casos de dengue pois pode aumentar o sangramento, causar vômitos, náuseas, diarreia e erupções na pele. Decorrente desses fatores, dificultaria o diagnóstico correto da doença.<br />
-                                            - Anti-inflamatórios: Os anti-inflamatórios, por exemplo ibuprofeno, aspirina e naproxeno podem aumentar o nível de sangramento, por isso são contraindicados.<br />
-                                            - Corticoides: Esses medicamentos podem agravar o quadro clínico da doença. Eles suprimem o sistema imunológico, o que dificulta o organismo a combater a dengue e faz com que a infecção se espalhe mais e mais. Sendo assim, contraindicado em casos de suspeita de dengue.<br />
+                                            • Antibióticos: A dengue é causada por um vírus, e os antibióticos tem como função tratar as infecções causadas por bactérias, por isso seria ineficaz. <br />
+                                            • Ivermectina: Esse medicamento é utilizado para tratar &quot;parasitas&quot; como piolhos e carrapatos. Não é recomendado em casos de dengue pois pode aumentar o sangramento, causar vômitos, náuseas, diarreia e erupções na pele. Decorrente desses fatores, dificultaria o diagnóstico correto da doença.<br />
+                                            • Anti-inflamatórios: Os anti-inflamatórios, por exemplo ibuprofeno, aspirina e naproxeno podem aumentar o nível de sangramento, por isso são contraindicados.<br />
+                                            • Corticoides: Esses medicamentos podem agravar o quadro clínico da doença. Eles suprimem o sistema imunológico, o que dificulta o organismo a combater a dengue e faz com que a infecção se espalhe mais e mais. Sendo assim, contraindicado em casos de suspeita de dengue.<br />
                                         </div>
                                     </div>
 
