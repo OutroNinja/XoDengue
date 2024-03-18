@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { FADE_DOWN_ANIMATION_VARIANTS } from "@/constans"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { LazyMotion, domAnimation, m } from "framer-motion"
-import Image from "next/image"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 export default function Page() {
     return (
@@ -40,12 +40,18 @@ export default function Page() {
                                     <div className="border-t border-gray-200 dark:border-gray-800" />
                                     <div className="px-4 md:px-6 lg:px-8 space-y-4">
                                         <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-                                            <Image
-                                                alt="Image"
-                                                className="overflow-hidden rounded-xl object-cover object-center"
+                                            <LazyLoadImage
+                                                alt="Mapa"
+                                                height="940"
+                                                width="788"
                                                 src="/images/mapa.png"
-                                                width="940"
-                                                height="788"
+                                                placeholderSrc="/images/mapa.png"
+                                                effect="blur"
+                                                style={{
+                                                    aspectRatio: "940/788",
+                                                    objectFit: "cover",
+                                                }}
+                                                className="rounded-lg"
                                             />
                                             <p className="text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
                                                 Estados com maiores número de casos prováveis:<br />
@@ -96,7 +102,7 @@ export default function Page() {
                                             </Avatar>
                                             <div>
                                                 <p className="text-sm font-medium leading-none">Letícia Silva Parreiras</p>
-                                                <p className="text-sm text-muted-foreground">Responsável por escrever o artigo "Estatísticas".</p>
+                                                <p className="text-sm text-muted-foreground">Responsável por escrever o artigo &quot;Estatísticas&quot;.</p>
                                             </div>
                                         </div>
                                     </CardContent>

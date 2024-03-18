@@ -120,7 +120,7 @@ const Hero = () => {
                                         A doença é transmitida exclusivamente pela picada do mosquito fêmea, que adquire o vírus e pode transmitir a outras pessoas.
                                     </p>
                                     <Button className="bg-green-500 text-white" variant="green_rounded" asChild>
-                                        <Link href="/dengue#transmissão">Saiba Mais<ChevronRight size="20" /></Link>
+                                        <Link href="/dengue#transmissao">Saiba Mais<ChevronRight size="20" /></Link>
                                     </Button>
                                 </div>
                                 <div className="order-1 md:order-2 mx-auto">

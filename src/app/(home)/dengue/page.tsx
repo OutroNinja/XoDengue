@@ -32,7 +32,7 @@ export default function Page() {
                                 <div className="grid gap-6">
                                     <div className="px-4 md:px-6 lg:px-8">
                                         <div className="space-y-2">
-                                            <span id="transmissão"></span>
+                                            <span id="transmissao"></span>
                                             <h1 className="text-3xl font-extrabold tracking-tight">Conheça a Dengue</h1>
                                             <div className="rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">Como é transmitida?</div>
                                         </div>

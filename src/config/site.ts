@@ -14,7 +14,7 @@ export const siteConfig = {
         "Conheça a Dengue": [
             {
                 title: "Como é transmitida?",
-                href: "/dengue#transmissão",
+                href: "/dengue#transmissao",
             },
             {
                 title: "Formas de Prevenção",
