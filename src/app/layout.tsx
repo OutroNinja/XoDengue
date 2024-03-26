@@ -55,9 +55,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <Head>
-        <meta name="google-site-verification" content="UvrE8obhYPKvmy_q9KQ320HoN9C5hGmXs-pXFr3oBcE" />
-      </Head>
       <body
         className={cn(
           "flex min-h-screen flex-col bg-background antialiased bg-gray-200 scroll-smooth",
