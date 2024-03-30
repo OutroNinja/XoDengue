@@ -1,9 +1,10 @@
 "use client"
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { FADE_DOWN_ANIMATION_VARIANTS } from "@/constans";
 import { LazyMotion, domAnimation, m } from "framer-motion";
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -27,9 +28,9 @@ export default function Page() {
                     className="w-full"
                 >
                     <section className="w-full">
-                        <Card className="py-10">
+                        <Card>
                             <CardContent>
-                                <div className="grid gap-6">
+                                <div className="grid gap-6 pt-16">
                                     <div className="px-4 md:px-6 lg:px-8">
                                         <div className="space-y-2">
                                             <span id="transmissao"></span>
@@ -93,6 +94,11 @@ export default function Page() {
                                         </div>
                                     </div>
                                 </div>
+                                <CardFooter className="text-gray-400 select-none grid">
+                                    Refêrencias Bibliográficas:
+                                    <Link href="https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/aprenda-a-diferenciar-os-sintomas-da-dengue-e-da-gripe">• https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/aprenda-a-diferenciar-os-sintomas-da-dengue-e-da-gripe (15/03/2024)</Link>
+                                    <Link href="https://www.dengue.pr.gov.br/Pagina/Como-combater">• https://www.dengue.pr.gov.br/Pagina/Como-combater (14/02/2024)</Link>
+                                </CardFooter>
                             </CardContent>
                         </Card>
 

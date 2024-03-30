@@ -1,9 +1,10 @@
 "use client"
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { FADE_DOWN_ANIMATION_VARIANTS } from "@/constans";
 import { LazyMotion, domAnimation, m } from "framer-motion";
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -27,9 +28,9 @@ export default function Page() {
                     className="w-full "
                 >
                     <section className="w-full">
-                        <Card className="py-10">
+                        <Card>
                             <CardContent>
-                                <div className="grid gap-6">
+                                <div className="grid gap-6 pt-16">
                                     <div className="px-4 md:px-6 lg:px-8">
                                         <div className="space-y-2">
                                             <h1 className="text-3xl font-extrabold tracking-tight">Cuidados de Saúde</h1>
@@ -61,8 +62,13 @@ export default function Page() {
                                             • Corticoides: Esses medicamentos podem agravar o quadro clínico da doença. Eles suprimem o sistema imunológico, o que dificulta o organismo a combater a dengue e faz com que a infecção se espalhe mais e mais. Sendo assim, contraindicado em casos de suspeita de dengue.<br />
                                         </div>
                                     </div>
-
                                 </div>
+                                <CardFooter className="text-gray-400 select-none grid">
+                                    Refêrencias Bibliográficas:
+                                    <Link href="https://www.saude.am.gov.br/ses-alerta-populacao-sobre-o-uso-de-medicamentos-contraindicados-em-casos-de-suspeita-de-dengue/">• https://www.saude.am.gov.br/ses-alerta-populacao-sobre-o-uso-de-medicamentos-contraindicados-em-casos-de-suspeita-de-dengue/ (20/02/2024)</Link>
+                                    <Link href="https://g1.globo.com/google/amp/saude/noticia/2024/01/25/qdenga-vacina-contra-dengue-o-que-e-preciso-saber.ghtml">• https://g1.globo.com/google/amp/saude/noticia/2024/01/25/qdenga-vacina-contra-dengue-o-que-e-preciso-saber.ghtml (25/01/2024)</Link>
+                                    <Link href="https://butantan.gov.br/noticias/vacina-da-dengue-do-butantan-tem-eficacia-“muito-satisfatoria”-mas-ainda-esta-em-desenvolvimento-e-precisa-de-aprovacao-da-anvisa">• https://butantan.gov.br/noticias/vacina-da-dengue-do-butantan-tem-eficacia-“muito-satisfatoria”-mas-ainda-esta-em-desenvolvimento-e-precisa-de-aprovacao-da-anvisa (15/03/2024)</Link>
+                                </CardFooter>
                             </CardContent>
                         </Card>
 

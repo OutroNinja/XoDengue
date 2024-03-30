@@ -1,10 +1,11 @@
 "use client"
 
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { FADE_DOWN_ANIMATION_VARIANTS } from "@/constans"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { LazyMotion, domAnimation, m } from "framer-motion"
 import { LazyLoadImage } from "react-lazy-load-image-component"
+import Link from "next/link"
 
 export default function Page() {
     return (
@@ -28,9 +29,9 @@ export default function Page() {
                     className="w-full"
                 >
                     <section className="w-full">
-                        <Card className="py-10">
+                        <Card>
                             <CardContent>
-                                <div className="grid gap-6">
+                                <div className="grid gap-6 pt-16">
                                     <div className="px-4 md:px-6 lg:px-8">
                                         <div className="space-y-2">
                                             <h1 className="text-3xl font-extrabold tracking-tight">Estátisticas</h1>
@@ -78,8 +79,11 @@ export default function Page() {
                                             </p>
                                         </div>
                                     </div>
-
                                 </div>
+                                <CardFooter className="text-gray-400 select-none grid">
+                                    Refêrencias Bibliográficas:
+                                    <Link href="https://agenciabrasil.ebc.com.br/saude/noticia/2024-03/brasil-tem-391-mortes-por-dengue">• https://agenciabrasil.ebc.com.br/saude/noticia/2024-03/brasil-tem-391-mortes-por-dengue (11/03/2024)</Link>
+                                </CardFooter>
                             </CardContent>
                         </Card>
 
