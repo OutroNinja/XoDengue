@@ -38,7 +38,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-  }
+  },
+  verification: { google: "UvrE8obhYPKvmy_q9KQ320HoN9C5hGmXs-pXFr3oBcE" }
 };
 
 export const viewport: Viewport = {
